@@ -1,5 +1,5 @@
 FROM openjdk:8
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
-RUN javac Main.java
-CMD ["java", "Main"]
+git clone https://github.com/JonnCh/SpringTest.git
+WORKDIR /usr/SpringTest/src
+RUN javac main/java/com/example/DemoApplication.java
+CMD ["java", "DemoApplication"]
