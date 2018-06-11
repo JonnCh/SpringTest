@@ -76,6 +76,9 @@
 							<mainClass>
 								com.example.demo.DemoApplication
 							</mainClass>
+							<finalName>
+								DemoApplication
+							</finalName>
 						</configuration>
 					</execution>
 				</executions>
